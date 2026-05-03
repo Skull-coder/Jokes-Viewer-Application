@@ -1,0 +1,56 @@
+/* Page layout */
+body {
+  margin: 0;
+  background: #f4f6f8;
+  font-family: Arial, sans-serif;
+}
+
+/* Main container */
+div {
+  text-align: center;
+}
+
+/* Title */
+h1 {
+  margin: 20px 0;
+  color: #333;
+}
+
+/* Jokes container */
+#box {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Individual joke card */
+#box > div {
+  background: #ffffff;
+  padding: 15px;
+  border-radius: 10px;
+
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease;
+}
+
+/* Hover effect */
+#box > div:hover {
+  transform: scale(1.02);
+}
+
+/* Joke text */
+h2 {
+  font-size: 18px;
+  color: #222;
+  margin-bottom: 10px;
+}
+
+/* Categories */
+p {
+  font-size: 13px;
+  color: #666;
+}
