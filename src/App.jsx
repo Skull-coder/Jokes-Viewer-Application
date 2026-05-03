@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import './App.css'
 
 function App() {
-  const [joke, setJoke] = useState(0)
+  const [joke, setJoke] = useState([])
 
   useEffect(() => {
     const fetchData = async () => {
